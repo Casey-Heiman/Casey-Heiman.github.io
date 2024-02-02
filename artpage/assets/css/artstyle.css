@@ -1,0 +1,40 @@
+#imgborder {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  h1 {
+    text-align: center;
+}
+
+#img {
+  height: auto;
+  width: auto;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.project-text {
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS';
+  }
+
+#centerbackground {
+  background-color: #97909E;;
+}
+
+body {
+  background-color: #848384;
+}
+#topbar {
+    background-color: #726D83;
+  }
+
