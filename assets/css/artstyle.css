@@ -1,12 +1,21 @@
-#imgborder {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
+
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 38px;
+  padding-top: 100px;
+}
+
   
   h1 {
     text-align: center;
+    font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
 }
 
 #img {
@@ -14,27 +23,173 @@
   width: auto;
 }
 
-.project-title {
+.pb-title {
   text-align: center;
   font-size: 40px;
-  margin-top: 50px;
+  margin-top: 120px;
   font-family: 'Courier New', Courier, monospace;
 }
 
 .project-text {
-    font-size: 20px;
-    margin-top: 20px;
-    font-family: 'Trebuchet MS';
-  }
+  font-size: 20px;
+  margin-top: 20px;
+  font-family: 'Trebuchet MS';
+}
 
 #centerbackground {
-  background-color: #97909E;;
+  background-color: #EEEEEE;
+  border-radius: 40px; 
+    overflow: hidden;  
+    border: 5px solid rgba(179, 179, 179, 0.671);
+  padding: 10px; 
+}
+
+
+
+
+#topbar {
+  background-color: #76ABAE;
+  margin-top: 40px;
 }
 
 body {
-  background-color: #848384;
+  background-color: #222831;
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
 }
-#topbar {
-    background-color: #726D83;
-  }
 
+
+
+
+
+.video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+hr.dashed {
+  border-top: 4px dashed #000000;
+}
+
+
+.nav-font {
+  font-family:'Lucida Sans Unicode';
+  color: #d1d1d1;
+}
+
+
+
+.custom-navbar {
+  background-color: #3D3B40; /* Dark purple color */
+  font-size: 18px; /* Larger font size */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #d1d1d1; /* Font color */
+  border-right: 1px solid #d1d1d1; /* Small black lines between items */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #fff; /* Hover font color */
+  background-color: #d1d1d1; /* Hover background color */
+}
+
+.custom-navbar .navbar-toggler-icon {
+  border-color: #d1d1d1; /* Color of the toggler icon */
+}
+
+
+
+
+
+
+.footfont {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+}
+
+
+#bottombar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #76ABAE;
+  padding: 4px 0; /* Reduced padding */
+  text-align: center; /* Center align the content */
+}
+
+#bottombar p {
+  margin-bottom: 0; /* Remove default paragraph margin */
+}
+
+#bottombar a {
+  color: rgb(0, 0, 0); /* Change link color */
+}
+
+#bottombar i {
+  vertical-align: middle; /* Align icons vertically */
+}
+
+#socialscolor {
+  font-size: 18px; /* Reduced font size */
+  text-align: left;
+  color: rgb(0, 0, 0);
+  margin-bottom: 1px; /* Add margin to socials text */
+  margin-left: 10px; /* Adjusted margin */
+}
+
+.container {
+  margin: 0 auto; /* Center the container */
+  max-width: 1200px; /* Set max-width for better responsiveness */
+}
+
+.row.text-center {
+  display: flex; /* Use flexbox for better alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.col-md-3 {
+  padding: 10px 5px; /* Adjust spacing between columns */
+}
+
+.col-md-3 p {
+  margin-bottom: 0; /* Remove default margin for paragraphs */
+}
+
+#bottombar a:hover {
+  text-decoration: underline;
+  color: rgb(143, 143, 143);
+}
+
+
+
+
+.imgborder {
+  border: 1px solid #494949d8;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height: 9, width: 16) */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.col {
+  width: 100%;
+}

@@ -1,6 +1,0 @@
-PA3 Completion list
-
--Nav Bar with multiple pages
--Biography
--Artifact
--criteria for style
