@@ -1,0 +1,7 @@
+Two Changes From webpagetest.org
+
+1. Documents Must Have <Title> Element To Aid In Navigation More Info
+Fix any of the following: Document does not have a non-empty <title> element<html>.
+
+2.<Html> Element Must Have A Lang Attribute More Info
+Fix any of the following: The <html> element does not have a lang attribute<html>
