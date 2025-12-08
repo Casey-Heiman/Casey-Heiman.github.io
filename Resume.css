@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f4f6;
+}
+
+.resume-wrapper {
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.resume-header {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #6b8a1f, #8ba632);
+    color: white;
+    padding: 30px;
+}
+
+.profile-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: white;
+    color: #6b8a1f;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.resume-body {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: #f7f7f3;
+}
+
+.main-content {
+    width: 70%;
+    padding: 30px;
+}
+
+h2 {
+    color: #6b8a1f;
+}
